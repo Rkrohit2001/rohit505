@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    background-color: rgb(1, 1, 34);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(78, 78, 202);
+    height: 80px;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a
+{
+ text-decoration: none;
+ color: white;
+}
+
+nav ul li a:hover
+{
+    color: rgb(150, 145, 145);
+    font-size: 1.05em;
+}
+
+.left
+{
+    font-size: 1.5rem;
+}
+.firstsec
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    align-items: center;
+
+}
+
+.firstsec > div
+{
+width: 30%;
+}
+
+
+.leftsec
+{
+    
+    font-size: 2em;
+    margin: 70px;
+    
+}
+
+.rightsec img
+{
+    width: 80%;
+    margin: 30px;
+    
+}
+.mynamespan
+{
+    color: rgb(221, 162, 34);
+}
+
+#element
+{
+    color: rgb(166, 96, 233);
+
+}
+.education
+{
+ max-width: 80vw;
+ margin: auto;
+    
+}
+main hr
+{
+    background-color: red;
+    height: 1.2px;
+    border: 0;
+    align-items: center;
+    
+}
